@@ -22,7 +22,7 @@ class LinkedList {
     prepend(value) {
         let temp = this.firstNode ;
         this.firstNode  = new Node(value);
-        this.firstNode .nextNode = temp;
+        this.firstNode.nextNode = temp;
     }
     size() {
         let temp = this.firstNode ;
